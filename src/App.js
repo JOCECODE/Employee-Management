@@ -1,8 +1,14 @@
 import Header from "./components/header";
+import Input from "./components/input";
 
 function App() {
   return (
-   <Header/>
+   <div>
+     <Header/>
+   <Input/>
+    
+   </div>
+   
   );
 }
 
