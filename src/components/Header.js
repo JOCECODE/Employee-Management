@@ -1,13 +1,33 @@
-import React, { Component } from 'react';
-import "../styles/Header.css";
+import React from 'react';
+import "../styles/header.css";
 
-export default class Header extends Component {
-  render() {
-    return (
-      <div className="header">
-        <h1>Employee Directory</h1>
-        <p>Click on carrots to filter by heading or use the search box to narrow your results.</p>
-      </div>
-    )
-  }
+function Header() {
+  return (
+    <div className="header">
+        
+    <div className="container-fluid">
+    <div className="row background">
+        <div className="col-sm-12">
+            
+            <h2 className="employeeBack">
+            Employee Directory 
+            <p className="filterFont">
+                Click on the name to filter A-Z or Z-A!!!
+            </p>
+            </h2>
+        </div>
+    </div>
+</div>
+  
+<div className="container-fluid secBackground">
+    <div className="row">
+        <div className="col-sm-12">
+            <br/>
+        </div>
+    </div>
+</div>
+
+  </div>
+  );
 }
+export default Header;
