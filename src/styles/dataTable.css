@@ -1,0 +1,18 @@
+.borderRow {
+  border-style: solid;
+  border-width: 3px;
+}
+
+.tableInfo {
+  text-align: center;
+  max-width: 100%;
+}
+
+.dataRow {
+  border-style: ridge;
+  border-width: 1px;
+}
+
+.images {
+  max-width: 100%;
+}

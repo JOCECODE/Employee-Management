@@ -1,56 +1,60 @@
 import React from "react";
-import "../styles/datatable.css";
+import "../styles/dataTable.css";
 
 function DataTable() {
     return ( 
-    <div class="dataTable">
-    <div class="container-fluid" >
-        <div class="row" style="border-style: solid; border-width: 3px;" >
-            <div class="col colffset-1">
-              <h4 class="tableInfo" style="text-align: center;">Image</h4>
+    <>
+    {/* DataTable headers for the columns */}
+    <div className="container-fluid" >
+        <div className="row borderRow">
+            <div className="col colffset-1">
+              <h4 className="tableInfo">Image</h4>
             </div>
-            <div class="col">
-              <h4 class="tableInfo" style="text-align: center;">Name</h4>
+            <div className="col">
+              <h4 className="tableInfo">Name</h4>
             </div>
-            <div class="col">
-              <h4 class="tableInfo" style="text-align: center;">Phone</h4>
+            <div className="col">
+              <h4 className="tableInfo">Phone</h4>
           </div>
 
-          <div class="col">
+          <div className="col">
 
-              <h4 class="tableInfo" style="text-align: center;">Email</h4>
+              <h4 className="tableInfo">Email</h4>
           </div>
-          <div class="col">
-              <h4 class="tableInfo" style="text-align: center;">
+          <div className="col">
+              <h4 className="tableInfo">
                   D.O.B.
               </h4>
           </div>
         </div>
       </div>
-      <div class="container-fluid dataContainer">  
-      <div class="row dataRow" style="border-style: ridge; border-width: 1px;">
-          <div class="col colffset-1">
-              <img src="https://dummyimage.com/1280X720/000/fff700.png" style="max-width: 100%;"></img>
+    
+     {/* DataTable to be populated from the api */}
+      <div className="container-fluid dataContainer">  
+      <div className="row dataRow">
+          <div className="col colffset-1">
+              <img className="images" alt="Employee Profile Pic" src="https://dummyimage.com/1280X720/000/fff700.png"></img>
           </div>
-          <div class="col">
-            <h4 class="tableInfo" style="text-align: center; max-width: 100%;">Johnny Bravo</h4>
+          <div className="col">
+            <h4 className="tableInfo">Johnny Bravo</h4>
           </div>
-          <div class="col">
-            <h4 class="tableInfo" style="text-align: center; max-width: 100%;">(562) 250-8932</h4>
+          <div className="col">
+            <h4 className="tableInfo">(562) 250-8932</h4>
         </div>
 
-        <div class="col">
+        <div className="col">
 
-            <h4 class="tableInfo" style="text-align: center; max-width: 100%;">pandacakes@yahoo.com</h4>
+            <h4 className="tableInfo">pandacakes@yahoo.com</h4>
         </div>
-        <div class="col">
-            <h4 class="tableInfo" style="text-align: center; max-width: 100%;">
-                D.O.B.
+        <div className="col">
+            <h4 className="tableInfo">
+                11/30/2020
             </h4>
         </div>
       </div>
     </div>
-  </div>)
+  </>
+  )
 };
 
 export default DataTable;
