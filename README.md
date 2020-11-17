@@ -23,13 +23,7 @@
 
 ## User-Demo
 
-[![Youtube Link To User Live Demo](http://img.youtube.com/vi/IcbTeQShoJo/0.jpg)](http://www.youtube.com/watch?v=IcbTeQShoJo "Fitness-Tracker-Live-Demo")
-
 Screenshots:
-![screenshots](<./screenshots/Screenshots(1).png> "Screenshot Of User Demo")
-![screenshots](<./screenshots/Screenshots(2).png> "Screenshot Of User Demo")
-![screenshots](<./screenshots/Screenshots(3).png> "Screenshot Of User Demo")
-![screenshots](<./screenshots/Screenshots(4).png> "Screenshot Of User Demo")
 
 ## Description
 
@@ -53,10 +47,18 @@ Must install the following NPM packages:
   `npm i react`
 - to install [react-dom](https://www.npmjs.com/package/react-dom) run the following code in your terminal:
   `npm i react-dom`
+- to install [bootstrap](https://www.npmjs.com/package/bootstrap) run the following code in your terminal:
+  `npm i bootstrap`
+- to install [react-router-dom](https://www.npmjs.com/package/react-router-dom) run the following code in your terminal:
+  `npm i react-router-dom`
+- to install [react-scripts](https://www.npmjs.com/package/react-scripts) run the following code in your terminal:
+  `npm i react-scripts`
+- to install [web-vitals](https://www.npmjs.com/package/web-vitals) run the following code in your terminal:
+  `npm i web-vitals`
 
 User-Flow
 
-- Using the _server.js_ as a an entry point run `npm start` on the terminal to start the application. From there, the user is than shown there last workout and can either continue it or make a new one.
+- The user can type in the name of the employee that they want to look up and as they type the selection will filter accordingly to the letters typed.
 
 ## License
 
